@@ -9,15 +9,29 @@
     <script src='app.js'></script>
 </head>
 <body>
-    
-<div class="location">
-    <h1 class="location-timezone">Timezone</h1>
-    <p>Icon</p>
+
+<div class="header">
+    <div class="header-title">
+        <h1>What's The Weather Going To Be?</h1>
+    </div>
+</div>
+<div class="search-bar">
+    <div class="search-bar-box">
+        <input type="text" placeholder="Type City Name">
+    </div>
+</div>
+    <div class="location">
+    <h1 class="location-timezone" id="location"></h1>
+    <img src="http://openweathermap.org/img/wn/10d@2x.png"/>
 </div>
 
 <div class="temperature">
-    <h2 class="degree">34</h2>
-    <div class="temperature-description">It's cold, man</div>
+    <div class="degree-section">
+        <h2 class="temperature-degree" id="temp"></h2>
+        <span>F</span>
+    </div>
+    <div class="temperature-description" id="description"></div>
+    
 </div>
 
 </body>
